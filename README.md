@@ -38,5 +38,10 @@ The website uses a **dark blue and white aesthetic**, inspired by DarkStudio, an
 [Blog Page](images/g3.png)  
 ![Blog Page](images/g3.png)
 
-[Contact Page](images/g4.png)  
+[Contact Page](images/g4.png)  git add README.md
+git commit -m "Add screenshot images"
+git push origin main
 ![Contact Page](images/g4.png)
+
+## Live Demo
+Check out my portfolio here: [LOTSO'S Portfolio](https://hazirahazman00-web.github.io/personal-blog-portfolio/)

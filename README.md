@@ -28,7 +28,7 @@ The website uses a **dark blue and white aesthetic**, inspired by DarkStudio, an
 ## Screenshots
 **You can take screenshots of each page and save them in the `images/` folder.**
 ```markdown
-![Home Page](images/home-screenshot.png)
-![About Page](images/about-screenshot.png)
-![Blog Page](images/blog-screenshot.png)
-![Contact Page](images/contact-screenshot.png)
+![Home Page](images/g1.png)
+![About Page](images/g2.png)
+![Blog Page](images/g3.png)
+![Contact Page](images/g4.png)

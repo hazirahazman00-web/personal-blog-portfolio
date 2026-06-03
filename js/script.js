@@ -1,0 +1,1 @@
+console.log("LOTSO'S website loaded successfully.");

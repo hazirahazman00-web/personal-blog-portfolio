@@ -1,75 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOTSO'S | DarkStudio Blog</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOTSO'S | Nur Hazirah Binti Azman</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index-additions.css"> <!-- Additions for glow effect -->
 </head>
 <body>
 
-    <header class="site-header">
-        <div class="logo">LOTSO'S</div>
+<!-- Header -->
+<header class="site-header">
+    <div class="logo-container">
+        <img src="images/lotso.png" alt="LOTSO'S Logo" class="site-logo">
+        <span class="site-title">LOTSO'S</span>
+    </div>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="work.html">Work</a>
+    </nav>
+</header>
 
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero-section">
-            <div class="hero-text">
-                <p class="tagline">DarkStudio • Graphic Design • Creative Blog</p>
-                <h1>Welcome to LOTSO'S</h1>
-                <p>
-                    A dark blue and white aesthetic blog that explores graphic design,
-                    creative ideas, digital branding, and visual storytelling.
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="blog.html" class="btn primary-btn">Read Blog</a>
-                    <a href="about.html" class="btn secondary-btn">About Me</a>
-                </div>
+<section <section class="hero-section">
+    <div class="landscape-card-no-box">
+        <!-- Left side: text -->
+        <div class="hero-text">
+            <p class="tagline">Creative / Digital Content</p>
+            <h1>Nur Hazirah Binti Azman</h1>
+            <p>Final-year IT (Informatics Media) student from UniSZA. Passionate about digital storytelling, graphic design, 3D/VR/AR, and web development.</p>
+            <div class="contact-info-hero">
+                <p>Email: <a href="mailto:hazirahazman00@gmail.com">hazirahazman00@gmail.com</a></p>
+                <p>Phone: 017-9917262</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/nurhazirahazman" target="_blank">nurhazirahazman</a></p>
             </div>
+        </div>
 
-            <div class="hero-card">
-                <h2>Design Focus</h2>
-                <p>Branding</p>
-                <p>Poster Design</p>
-                <p>Digital Content</p>
-                <p>Creative Direction</p>
-            </div>
-        </section>
+        <!-- Right side: profile image -->
+        <div class="hero-image">
+            <img src="images/profile hazirah.png" alt="Nur Hazirah Binti Azman">
+        </div>
+    </div>
+</section>
 
-        <section class="featured-section">
-            <h2>Featured Topics</h2>
+<section class="featured-section">
+    <h2>Skills & Expertise</h2>
+    <div class="education-cards">
+        <a href="work.html#video" class="card glow-card topic-card">
+            <h3>Video Editing</h3>
+            <p>CapCut, Adobe Photoshop — producing high-quality video content</p>
+        </a>
+        <a href="work.html#graphic" class="card glow-card topic-card">
+            <h3>Graphic Design</h3>
+            <p>Canva, Visual Storytelling, Social Media Content Creation</p>
+        </a>
+        <a href="work.html#3dvr" class="card glow-card topic-card">
+            <h3>3D & VR/AR</h3>
+            <p>3D Modelling & Animations with Autodesk Maya, VR/AR Apps in Unity</p>
+        </a>
+        <a href="work.html#web" class="card glow-card topic-card">
+            <h3>Web Design & Programming</h3>
+            <p>HTML, CSS, Java, Web Layout & Interactive Design</p>
+        </a>
+    </div>
+</section>
 
-            <div class="topic-grid">
-                <article class="topic-card">
-                    <h3>Dark UI Design</h3>
-                    <p>How dark blue interfaces create a modern and premium website feel.</p>
-                </article>
+<section class="education-section">
+    <h2>Education</h2>
+    <div class="education-cards">
+        <div class="card glow-card edu-card">
+            <h3>Universiti Sultan Zainal Abidin (UniSZA)</h3>
+            <p>Bachelor of Information Technology (Informatics Media) (Hons) | OCT 2023 – PRESENT</p>
+            <p>Current CGPA: 4.00 | Dean’s List: Semester 2,3,4,5</p>
+        </div>
+        <div class="card glow-card edu-card">
+            <h3>STPM | SMK Perimbun Cheras</h3>
+            <p>JUL 2021 – APR 2023 | CGPA: 2.92</p>
+        </div>
+    </div>
+</section>
 
-                <article class="topic-card">
-                    <h3>Graphic Design Trends</h3>
-                    <p>Exploring layout, typography, contrast, and digital visual styles.</p>
-                </article>
 
-                <article class="topic-card">
-                    <h3>Creative Branding</h3>
-                    <p>Building a strong visual identity through colors, style, and consistency.</p>
-                </article>
-            </div>
-        </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2026 LOTSO'S. All rights reserved.</p>
-    </footer>
+<footer>
+<p>&copy; 2026 Nur Hazirah Binti Azman | LOTSO'S. All rights reserved.</p>
+</footer>
 
-    <script src="js/script.js"></script>
 </body>
 </html>

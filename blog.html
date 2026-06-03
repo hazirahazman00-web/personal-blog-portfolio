@@ -1,75 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | LOTSO'S</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOTSO'S Blog</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header class="site-header">
-        <div class="logo">LOTSO'S</div>
+<header class="site-header">
+    <div class="logo-container">
+        <img src="images/lotso.png" alt="LOTSO'S Logo" class="site-logo">
+        <span class="site-title">LOTSO'S</span>
+    </div>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="work.html">Work</a>
+    </nav>
+</header>
 
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+<section class="blog-section">
+    <h2>Creative Articles & Insights</h2>
+    <div class="blog-cards">
 
-    <main>
-        <section class="page-hero">
-            <p class="tagline">Design Journal</p>
-            <h1>Blog Posts</h1>
-            <p>
-                A collection of short articles about graphic design, dark website aesthetics,
-                and digital creativity.
-            </p>
-        </section>
+        <div class="card blog-card" style="background-image: url('images/blog1.png');">
+            <h3>How to Build a Strong Creative Brand</h3>
+            <p>Branding is more than a logo; it's the visual language and storytelling of your product.</p>
+            <a href="https://www.skillshare.com/en/blog/8-tips-to-building-a-better-creative-brand/" target="_blank">Read More →</a>
+        </div>
 
-        <section class="blog-list">
+        <div class="card blog-card" style="background-image: url('images/blog2.png');">
+            <h3>Mastering Visual Storytelling</h3>
+            <p>Visual storytelling communicates ideas effectively. Explore techniques to make your graphics and videos more engaging.</p>
+            <a href="https://www.nngroup.com/articles/storytelling-study-guide/" target="_blank">Read More →</a>
+        </div>
 
-            <article class="blog-post">
-                <p class="post-date">Post 01 • Web Design</p>
-                <h2>Why Dark Blue Works Well in Modern Websites</h2>
-                <p>
-                    Dark blue creates a professional, calm, and premium visual mood.
-                    When combined with white typography, it improves contrast and gives
-                    a website a clean studio-like appearance.
-                </p>
-                <a href="#" class="read-more">Read More</a>
-            </article>
+        <div class="card blog-card" style="background-image: url('images/blog3.png');">
+            <h3>Why Dark UI Works for Creative Websites</h3>
+            <p>Dark UI can improve focus and create a premium aesthetic. Learn best practices for using dark themes effectively.</p>
+            <a href="https://www.nngroup.com/articles/dark-mode-users-issues/" target="_blank">Read More →</a>
+        </div>
 
-            <article class="blog-post">
-                <p class="post-date">Post 02 • Graphic Design</p>
-                <h2>The Importance of Layout in Poster Design</h2>
-                <p>
-                    A strong layout helps guide the viewer's eyes. In graphic design,
-                    spacing, alignment, and hierarchy are important because they make
-                    the message easier to understand.
-                </p>
-                <a href="#" class="read-more">Read More</a>
-            </article>
+    </div>
+</section>
 
-            <article class="blog-post">
-                <p class="post-date">Post 03 • Branding</p>
-                <h2>Building a Consistent Visual Identity</h2>
-                <p>
-                    A good brand identity uses consistent colours, fonts, images, and tone.
-                    Consistency helps an audience recognise and remember a brand more easily.
-                </p>
-                <a href="#" class="read-more">Read More</a>
-            </article>
+<footer>
+<p>&copy; 2026 Nur Hazirah Binti Azman | LOTSO'S. All rights reserved.</p>
+</footer>
 
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 LOTSO'S. All rights reserved.</p>
-    </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
